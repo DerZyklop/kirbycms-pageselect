@@ -26,9 +26,9 @@ As soon as you dropped the pageselect field into your panel folder you can use i
 
 This is what you get:
 
-![pageselect](https://raw2.github.com/DerZyklop/kirbycms-pageselect/master/pageselect.png)
-
 This will render a select field with all available pages of your site.
+
+![pageselect](https://raw2.github.com/DerZyklop/kirbycms-pageselect/master/pageselect.png)
 
 ## Options
 
