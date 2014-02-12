@@ -23,7 +23,7 @@ makeArray( $site->pages() );
 ?>
 
 <select name="<?php echo $name ?>">
-  <option<?php if(!$value) echo ' selected="selected"' ?> value="">-</option>
+  <option<?php if(!$value) echo ' selected="selected"' ?> value=""></option>
   <?php foreach($options as $key => $item): ?>
     <?php
       $seperator = '';
