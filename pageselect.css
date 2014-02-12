@@ -1,0 +1,9 @@
+.form .field.pageselect {
+  margin-right: -20px;
+}
+.form .field.pageselect select {
+  display: block;
+  margin-top: -2px;
+  width: 100%;
+  margin-bottom: 5px;
+}

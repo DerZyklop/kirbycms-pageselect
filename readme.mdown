@@ -1,0 +1,31 @@
+# Kirby Panel Pageselect field
+
+## What is this
+
+This is a custom pageselect field for the Kirby panel, which makes it easy to select any page and add its uri to your txt as a separate field.
+
+## Installation
+
+If not already exists, add a fields folder to your `site/panel` folder and copy the entire tags field folder there. Your structure should look like this:
+
+	site
+		panel
+			fields
+				pageselect
+					pageselect.css
+					pageselect.php
+
+## In your blueprints
+
+As soon as you dropped the pageselect field into your panel folder you can use it in your blueprints:
+
+	fields:
+		myfield:
+			label: My Page Select
+			type: pageselect
+
+This will render a select field with all available pages of your site.
+
+## Options
+
+No options jet.
